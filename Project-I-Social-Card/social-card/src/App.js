@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 
@@ -18,8 +18,10 @@ const App = () => {
 					them work.
 				</strong>
 			</p>
-			<HeaderContainer />
-			<CardContainer />
+			<div className='social-card'>
+				<HeaderContainer />
+				<CardContainer />
+			</div>
 		</div>
 	);
 };

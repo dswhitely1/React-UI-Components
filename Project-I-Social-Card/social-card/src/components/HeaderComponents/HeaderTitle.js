@@ -1,13 +1,11 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 
 const HeaderTitle = () => {
 	return (
-		<div>
-			<p>
-				Lambda School<span>@LambdaSchool 26 jan</span>
-			</p>
-		</div>
+		<p>
+			<strong>Lambda School</strong> <span>@LambdaSchool 26 jan</span>
+		</p>
 	);
 };
 
