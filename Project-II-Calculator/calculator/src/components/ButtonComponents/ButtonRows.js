@@ -8,7 +8,7 @@ const ButtonRows = ({ bRows }) => {
 		<div className='button-rows'>
 			{bRows.map(
 				(button, i) =>
-					button.class === 'action-button button' ? (
+					button.class === 'triple' ? (
 						<ActionButton button={button} key={i} />
 					) : (
 						<NumberButton button={button} key={i} />

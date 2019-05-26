@@ -5,7 +5,6 @@ import Calculator from './components/Calculator/Calculator';
 const App = () => {
 	return (
 		<div>
-			<Calculator />
 			<h3>Welcome to React Calculator</h3>
 			<p>
 				We have given you a starter project. You'll want to build out your components in their respective files, remove
@@ -17,6 +16,7 @@ const App = () => {
 					them work.
 				</strong>
 			</p>
+			<Calculator />
 		</div>
 	);
 };
