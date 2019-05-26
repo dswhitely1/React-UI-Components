@@ -1,0 +1,36 @@
+.button-rows {
+	border: 1px solid lightgray;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	p {
+		font-size: 5rem;
+	}
+
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 112px;
+	height: 98px;
+	border: 1px solid lightgray;
+}
+
+.triple {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 336px;
+	height: 98px;
+	border: 1px solid lightgray;
+}
+
+.action-button {
+	background-color: red;
+	color: white;
+}
