@@ -4,12 +4,12 @@ import CalculatorDisplay from '../DisplayComponents/CalculatorDisplay';
 import ButtonRows from '../ButtonComponents/ButtonRows';
 
 const buttonData = [
-	[ { name: 'clear', class: 'triple' }, { name: '/', class: 'action-button button' } ],
+	[ { name: 'clear', class: 'triple' }, { name: '÷', class: 'action-button button' } ],
 	[
 		{ name: '7', class: 'button' },
 		{ name: '8', class: 'button' },
 		{ name: '9', class: 'button' },
-		{ name: '*', class: 'action-button button' },
+		{ name: 'X', class: 'action-button button' },
 	],
 	[
 		{ name: '4', class: 'button' },
