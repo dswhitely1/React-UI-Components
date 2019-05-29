@@ -1,0 +1,18 @@
+/* All styles for your header Components live here */
+.header-container {
+	display: flex;
+	line-height: 1.25;
+	img {
+		padding-top: 1.6rem;
+		width: 10%;
+		height: 10%;
+	}
+
+	.header-words {
+		margin-left: 1%;
+
+		span {
+			color: lightgray;
+		}
+	}
+}
